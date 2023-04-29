@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./resource/images/title.png"
+      type="image/x-icon"
+    />
+    <title>Ellily Restaurant</title>
+  <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+  <body>
+    <header class="header-container">
+        <nav class="header-navbar">
+            <img src='./resource/images/logo.png' class="restaurant-icon">
+        <h1>Ellily Restaurant</h1>
+        </nav>
+        <ul class="header-navbar navbar-menu">
+        <li><a class="menu-item-link">Category</a></li>
+        <li><a class="menu-item-link menu-active" id="item-count">Seafood 0</a></li>
+        </ul>
+    </header>
+    <main class="main">
+      <ul class="meal-container" id="meal-unorder-id">
+        <li class="meal-item meal-card">
+          <p class="meal-head">Goat Beef</p>
+          <hr>
+          <img src="https://www.themealdb.com/images/category/chicken.png" class="meal-thumbail">
+          <hr>
+          <div class="meal-interaction">
+          <button class="meal-button meal-comment">&#10029; Comment</button>
+            <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
+          </div>
+        </li>
+        <li class="meal-item meal-card">
+          <h3 class="meal-head">Goat Beef</h3>
+          <hr>
+          <img src="https://www.themealdb.com/images/category/side.png" class="meal-thumbail">
+          <hr>
+          <div class="meal-interaction">
+          <button class="meal-button meal-comment">&#10029; Comment</button>
+            <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
+          </div>
+        </li><li class="meal-item meal-card">
+          <h3 class="meal-head">Goat Beef</h3>
+          <hr>
+          <img src="https://www.themealdb.com/images/category/starter.png" class="meal-thumbail">
+          <hr>
+          <div class="meal-interaction">
+          <button class="meal-button meal-comment">&#10029; Comment</button>
+            <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
+          </div>
+        </li><li class="meal-item meal-card">
+          <h3 class="meal-head">Goat Beef</h3>
+          <hr>
+          <img src="https://www.themealdb.com/images/category/beef.png" class="meal-thumbail">
+          <hr>
+          <div class="meal-interaction">
+          <button class="meal-button meal-comment">&#10029; Comment</button>
+            <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
+          </div>
+        </li><li class="meal-item meal-card">
+          <h3 class="meal-head">Goat Beef</h3>
+          <hr>
+          <img src="https://www.themealdb.com/images/category/dessert.png" class="meal-thumbail">
+          <hr>
+          <div class="meal-interaction">
+          <button class="meal-button meal-comment">&#10029; Comment</button>
+            <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
+          </div>
+        </li>
+      </ul>
+      <div class="comment-popup d-none">
+      <ul class="meal-card comment-container">
+       <li class="comment-head"><p id="popupmeal-name">Space 3</p><button class="button-close">&#10005;</button></li>
+        <li class="comment-thumbail">
+          <img src="https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg" alt="" class="meal-image" id="popupmeal-img">
+        </li>
+        <li class="comment-details">
+         <p class="meal-desc" id="popupmeal-cat">
+          Category: Chicken
+         </p>
+         <p class="meal-desc" id="popupmeal-area">
+        Area: Japanese
+         </p>
+         <p class="meal-desc" id="popupmeal-tag">Tags: Meat,Casserole</p>
+         <p class="meal-desc"> Video on: <a href="" id="popupmeal-video">Youtube</a></p>
+        </li>
+        <li class="add-comment">
+          <h3 class="commet-item">Add a Comment <span id="comment-count"></span> </h3>
+          <form action="" class="comment-form">
+            <input name="item_id" type="hidden" value="" id="popupmeal-id">
+            <input name="username" type="text" value="" class="comment-input" placeholder="Your Name" size="25">
+            <input name="comment" type="text" value="" class="comment-input" placeholder="Your insight" size="60">
+            <input name="button" type="submit" class="comment-input" value="Comment">
+          </form>
+          <div class="popup-comments">
+          </div>
+        </li>
+      </ul>
+      </div>
+    </main>
+    <footer class="header-container">
+        <p>&copy; Created by: Osman and Christelle</p>
+        <p></p>
+    </footer>
+  </body>
+  </html>
