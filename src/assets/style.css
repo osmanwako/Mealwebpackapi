@@ -237,12 +237,17 @@ body {
 
 .footer-container {
   max-width: 1536px;
-  margin: 30px;
-  width: 100%;
+  padding: 0 30px;
+  width: 99%;
   background-color: #2196f3;
   opacity: 0.8;
   display: block;
   border-top: 0.09px solid #fff;
+}
+
+.dev-icon{
+width: 20px;
+height: 20px;
 }
 
 .nav-footer{
@@ -260,8 +265,22 @@ body {
 
 .developer{
   display: flex;
-  padding: 10px;
+  text-align: center;
+  gap: 10px;
   list-style: none;
+}
+
+.developer a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.developer a:hover{
+  background-color: #ddd;
+  border-radius: 10px;
+  color: #00f;
 }
 
 .mit{

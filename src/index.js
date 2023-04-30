@@ -1,5 +1,8 @@
 import './assets/style.css';
 import './assets/logo.png';
+import './assets/github.png';
+import './assets/linkedin.png';
+import './assets/twitter.png';
 import './assets/meal.jpg';
 import getcategories from './module/meal.js';
 import { ulelement } from './module/dom_elements.js';
